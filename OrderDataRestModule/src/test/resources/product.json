@@ -1,0 +1,14 @@
+{
+  "name" : "name",
+  "code" : "code",
+  "unitPrice" : 222.22,
+  "description" : "description",
+  "comment" : {
+    "details" : "some comment"
+  },
+  "_links" : {
+    "self" : {
+      "href" : "http://localhost:8080/products/1"
+    }
+  }
+}

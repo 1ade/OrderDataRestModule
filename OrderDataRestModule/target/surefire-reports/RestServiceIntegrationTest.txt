@@ -1,0 +1,11 @@
+-------------------------------------------------------------------------------
+Test set: RestServiceIntegrationTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 22.209 sec <<< FAILURE! - in RestServiceIntegrationTest
+testProducts(RestServiceIntegrationTest)  Time elapsed: 18.29 sec  <<< ERROR!
+java.lang.IllegalArgumentException: [Assertion failed] - this expression must be true
+	at org.springframework.util.Assert.isTrue(Assert.java:65)
+	at org.springframework.util.Assert.isTrue(Assert.java:77)
+	at RestServiceIntegrationTest.doGet(RestServiceIntegrationTest.java:141)
+	at RestServiceIntegrationTest.testProducts(RestServiceIntegrationTest.java:104)
+
